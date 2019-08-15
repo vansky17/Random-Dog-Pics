@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  h1, form{
+      text-align: center;
+  }
+  p.info{
+      color: gray;
+      font-style: italic;
+      text-align: center;
+  }
+  .results{
+      display: flex;
+      margin-top: 2em;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 2em;
+      justify-content: center;
+      border: 1px solid gray;
+  }
+  img {
+      width:200px;
+      height:200px;
+      margin: 0.1em;
+  }
+  
